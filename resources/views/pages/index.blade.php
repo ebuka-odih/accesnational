@@ -16,7 +16,7 @@
 
                         <div class="small-12 medium-10 large-8 columns">
                             <h1>Empowering Individuals & Businesses to Achieve More</h1>
-                            <a href="about" class="button" >About Nestlecity</a>
+                            <a href="about" class="button" >About {{ env('APP_NAME') }}</a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +386,7 @@
 <section class="consultation-cta">
     <div class= "row medium-collapse full-width" data-equalizer data-equalize-on="medium">
         <div class="small-12 medium-7 columns consultation-cta-left" data-equalizer-watch>
-            <p x-ms-format-detection="none">Interested in banking with us? Send us a mail <a href="mailto:support@nestlecityint.com">support@nestlecityint.com</a></p>
+            <p x-ms-format-detection="none">Interested in banking with us? Send us a mail <a href="mailto:{{ env('MAIL_FROM_ADDRESS') }}">{{ env('MAIL_FROM_ADDRESS') }}</a></p>
         </div>
         <a href="contact"  class="small-12 medium-5 columns consultation-cta-right"  data-equalizer-watch>
             <p>Request a Consultation</p>
