@@ -43,7 +43,7 @@
         <div class="row">
             <div class="small-12 medium-12 medium-centered  columns">
                 <div class="intro-content wow fadeIn">
-                    <p>You’ve made a commitment to Nestlecity International, now let us help you retain the people who will be critical to the growth of your company. Introducing Nestlecity International Partner Capital Loans and Workplace Benefits.</p>
+                    <p>You’ve made a commitment to {{ env('APP_NAME') }}, now let us help you retain the people who will be critical to the growth of your company. Introducing {{ env('APP_NAME') }} Partner Capital Loans and Workplace Benefits.</p>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                 <div class="small-12 medium-6 columns">
                     <div class="split-content wow fadeInLeft">
                         <h3>Partner Capital Loans</h3>
-                        <p><p>Nestlecity International Partner Capital Loans offer a way for new partners to buy-in or existing partners to increase their stake in the company.  Benefits include:</p>
+                        <p><p>{{ env('APP_NAME') }} Partner Capital Loans offer a way for new partners to buy-in or existing partners to increase their stake in the company.  Benefits include:</p>
                         <ul>
                             <li>Reduced financial burden on your firm</li>
                             <li>Customized to fit your firm</li>
@@ -81,7 +81,7 @@
                 <h2 class="section-heading">Workplace Banking</h2>
                 <div class="row">
                     <div class="small-12 medium-11 medium-centered">
-                        <p class="section-intro-content">Workplace Benefits provide special offers and discounts for employees of approved companies that have operating, trust or escrow accounts with Nestlecity International.  Your team will have access to:</p>
+                        <p class="section-intro-content">Workplace Benefits provide special offers and discounts for employees of approved companies that have operating, trust or escrow accounts with {{ env('APP_NAME') }}.  Your team will have access to:</p>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
         </div>
     </section>
     <section class="fine-print">
-        <p class="disclaimer-text">†† ATM fees are waived for both Nestlecity International and the owner of the ATM<br />
+        <p class="disclaimer-text">†† ATM fees are waived for both {{ env('APP_NAME') }} and the owner of the ATM<br />
         </p>
     </section>
 

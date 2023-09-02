@@ -31,7 +31,7 @@
         <div class="row">
             <div class="small-12 medium-12 medium-centered  columns">
                 <div class="intro-content wow fadeIn">
-                    <p>Workplace Banking provides special offers and discounts for employees of approved companies that have operating, trust or escrow accounts with Nestlecity International.</p>
+                    <p>Workplace Banking provides special offers and discounts for employees of approved companies that have operating, trust or escrow accounts with {{ env('APP_NAME') }}.</p>
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
                             <span>Residential Loan Benefits</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Workplace Banking also comes with Residential Loan benefits. Employees that bank with us can receive closing cost credit when they open a Nestlecity International Checking account and receive a debit card. On our Portfolio Loans employees can obtain interest rate credit for establishing Auto Pay (from their Nestlecity International Checking account to their Nestlecity International Loan) and Direct Deposit.</p>
+                            <p>Workplace Banking also comes with Residential Loan benefits. Employees that bank with us can receive closing cost credit when they open a {{ env('APP_NAME') }} Checking account and receive a debit card. On our Portfolio Loans employees can obtain interest rate credit for establishing Auto Pay (from their {{ env('APP_NAME') }} Checking account to their {{ env('APP_NAME') }} Loan) and Direct Deposit.</p>
                         </div>
                     </li>
                 </ul>
@@ -123,7 +123,7 @@
                 <h2 class="section-heading">Employer Benefits</h2>
                 <div class="row">
                     <div class="small-12 medium-11 medium-centered">
-                        <p class="section-intro-content">We understand that employee privacy is important to you, so we’ve developed resources to help you communicate employee benefits through your existing HR systems and processes.  When you launch Nestlecity International Workplace Banking, we can help you with the following resources:</p>
+                        <p class="section-intro-content">We understand that employee privacy is important to you, so we’ve developed resources to help you communicate employee benefits through your existing HR systems and processes.  When you launch {{ env('APP_NAME') }} Workplace Banking, we can help you with the following resources:</p>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                         </div>
                         <div class="small-12 medium-10 large-9 columns wow fadeIn">
                             <h6>New Employee Orientation Support</h6>
-                            <p><p>Inquire and we&#8217;ll send you a datasheet introducing Nestlecity International and our Workplace Banking program. We find this is a useful tool in New Employee Orientation packets.</p>
+                            <p><p>Inquire and we&#8217;ll send you a datasheet introducing {{ env('APP_NAME') }} and our Workplace Banking program. We find this is a useful tool in New Employee Orientation packets.</p>
                             </p>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
         </div>
     </section>
     <section class="fine-print">
-        <p class="disclaimer-text">† ATM fees are waived for both Nestlecity International and the owner of the ATM<br />
+        <p class="disclaimer-text">† ATM fees are waived for both {{ env('APP_NAME') }} and the owner of the ATM<br />
         </p>
     </section>
 

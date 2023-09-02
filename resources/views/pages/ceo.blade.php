@@ -10,7 +10,7 @@
                 <div class="slider-content">
                     <div class="row">
                         <div class="small-12 medium-10 large-8 columns">
-                            <p class="slider-text"><span style="letter-spacing: -1.5px;">With Nestlecity International, it’s not like I'm working with a bank, they're my friends and they’re looking out for me.</span></p>
+                            <p class="slider-text"><span style="letter-spacing: -1.5px;">With {{ env('APP_NAME') }}, it’s not like I'm working with a bank, they're my friends and they’re looking out for me.</span></p>
                             <p class="testimonial-slider-info"><strong>Alan Shafner</strong>                      </p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
         <div class="row">
             <div class="small-12 columns">
                 <p><p>Alan Shafner is an accomplished personal injury lawyer who has been recognized as a Top 100 Trial Lawyer by The National Trial Lawyers. In 2011 Alan opened his own personal injury firm, Shafner Law, where he takes great pride in the millions of dollars he has recovered for his clients through settlement and trial. </p>
-                <p>Alan uses a wide range of Nestlecity International products and service for both personal and business needs.  He views the relationship with his banking team as a friendship first. He deeply values his team’s advice which has successfully steered him through his personal growth from successful partner in a top law firm to president of his own company.</p>
+                <p>Alan uses a wide range of {{ env('APP_NAME') }} products and service for both personal and business needs.  He views the relationship with his banking team as a friendship first. He deeply values his team’s advice which has successfully steered him through his personal growth from successful partner in a top law firm to president of his own company.</p>
                 </p>
             </div>
         </div>

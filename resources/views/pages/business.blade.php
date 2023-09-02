@@ -29,7 +29,7 @@
         <div class="row">
             <div class="small-12 medium-12 medium-centered  columns">
                 <div class="intro-content wow fadeIn">
-                    <p>Focus on growing your business - let us help with the details. We offer a suite of treasury management products for effortless business banking. Enjoy working and banking remotely with Nestlecity International online banking, remote scanner deposit, mobile deposit, and more.</p>
+                    <p>Focus on growing your business - let us help with the details. We offer a suite of treasury management products for effortless business banking. Enjoy working and banking remotely with {{ env('APP_NAME') }} online banking, remote scanner deposit, mobile deposit, and more.</p>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                             <span>Workplace Banking</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p><span style="font-weight: 400;">Benefits for employees of approved companies that have operating, trust or escrow accounts with Nestlecity International.</span></p>
+                            <p><span style="font-weight: 400;">Benefits for employees of approved companies that have operating, trust or escrow accounts with {{ env('APP_NAME') }}.</span></p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -79,7 +79,7 @@
                             <span>Treasury Management</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Manage your cash flow effectively, efficiently, easily and securely through the complete range of Treasury Management and escrow services from Nestlecity International.</p>
+                            <p>Manage your cash flow effectively, efficiently, easily and securely through the complete range of Treasury Management and escrow services from {{ env('APP_NAME') }}.</p>
                             <p><a class="button text-link" href="http://fortisprivateb.staging.wpengine.com/business/treasury-management/">Learn more about Treasury Management</a></p>
                         </div>
                     </li>
@@ -98,7 +98,7 @@
                             <span>Business Lines of Credit and Loans</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p><span style="font-weight: 400;">Your Nestlecity International team can assist you with short and long-term financing solutions.  Whether you’re funding working capital for your business, a partner buy-in, or financing the acquisition of a competitor, Nestlecity International has the expertise to help you achieve your goals.</span></p>
+                            <p><span style="font-weight: 400;">Your {{ env('APP_NAME') }} team can assist you with short and long-term financing solutions.  Whether you’re funding working capital for your business, a partner buy-in, or financing the acquisition of a competitor, {{ env('APP_NAME') }} has the expertise to help you achieve your goals.</span></p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -182,7 +182,7 @@
                         <div class="row">
 
                             <div class="small-12 medium-10 large-8 columns">
-                                <p class="slider-text"><span style="letter-spacing: -1.5px;">With Nestlecity International, it’s not like I'm working with a bank, they're my friends and they’re looking out for me.</span></p>
+                                <p class="slider-text"><span style="letter-spacing: -1.5px;">With {{ env('APP_NAME') }}, it’s not like I'm working with a bank, they're my friends and they’re looking out for me.</span></p>
                                 <p class="testimonial-slider-info"><strong>Alan Shafner</strong>                      </p>
                                 <a href="our-ceo" class="button">Learn More</a>
                             </div>

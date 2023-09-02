@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Nestlecity International - Empowering Clients to Achieve More</title>
+    <title>{{ env('APP_NAME') }} - Empowering Clients to Achieve More</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('images/956790d45897b7e31.css') }}" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
@@ -97,7 +97,7 @@
                 <div class="small-12 columns">
                     <div class="logo">
                         <a href="{{ route('index') }}">
-                            <h4 style="color: white">Nestlecity International</h4>
+                            <h4 style="color: white">{{ env('APP_NAME') }}</h4>
 {{--                            <img src="images/project-private-bank-logo.png" alt="Project Finance Bank">--}}
                         </a>
                     </div>
@@ -210,7 +210,7 @@
                             for (var i=0; i<emailriddlerarray.length; i++)
                                 encryptedemail_id31+=String.fromCharCode(emailriddlerarray[i])
 
-                            document.write('<a href="mailto:support@Nestlecity International.com">info@Nestlecity International.com</a>')
+                            document.write('<a href="mailto:support@accesnational.com">info@accesnational.com</a>')
 
                             /*]]>*/
                         </script></li>

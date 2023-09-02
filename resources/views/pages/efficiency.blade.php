@@ -55,7 +55,7 @@
                 <h2 class="section-heading">Escrow Products</h2>
                 <div class="row">
                     <div class="small-12 medium-11 medium-centered">
-                        <p class="section-intro-content">With the service expertise to act as a 3rd party agent, Nestlecity International offers escrow products for</p>
+                        <p class="section-intro-content">With the service expertise to act as a 3rd party agent, {{ env('APP_NAME') }} offers escrow products for</p>
                     </div>
                 </div>
             </div>
@@ -164,7 +164,7 @@
                             <span>Colorado Lawyer Trust Account Fund (COLTAF) Accounts and Interest on Lawyer Trust Accounts (IOLTA)</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Nestlecity International has been certified as eligible to open COLTAF accounts in Colorado and IOLTA account sin Utah.  The accounts help fund nonprofit organizations that provide civil legal aid for low-income people.</p>
+                            <p>{{ env('APP_NAME') }} has been certified as eligible to open COLTAF accounts in Colorado and IOLTA account sin Utah.  The accounts help fund nonprofit organizations that provide civil legal aid for low-income people.</p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -182,7 +182,7 @@
                             <span>Online Bill Pay</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Nestlecity International provides a secure online system that is easy to set up and maintain if your business is looking to accept one-time or reoccurring payments.</p>
+                            <p>{{ env('APP_NAME') }} provides a secure online system that is easy to set up and maintain if your business is looking to accept one-time or reoccurring payments.</p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -191,7 +191,7 @@
                             <span>Remote Deposit</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Nestlecity International delivers an at-home desktop scanner that quickly and effortlessly helps you deposits checks.</p>
+                            <p>{{ env('APP_NAME') }} delivers an at-home desktop scanner that quickly and effortlessly helps you deposits checks.</p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -200,7 +200,7 @@
                             <span>Online Wires</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Nestlecity International provides immediate one-time or reoccurring transfers that securely take place from your personal computer.</p>
+                            <p>{{ env('APP_NAME') }} provides immediate one-time or reoccurring transfers that securely take place from your personal computer.</p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -209,7 +209,7 @@
                             <span>Positive Pay</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Nestlecity International offers a service that detects and prevents check fraud by comparing check transactions with your records before final payment by the bank.</p>
+                            <p>{{ env('APP_NAME') }} offers a service that detects and prevents check fraud by comparing check transactions with your records before final payment by the bank.</p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -218,7 +218,7 @@
                             <span>Email Alerts</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>With Nestlecity International online banking, you can create customizable updates that immediately notify you of account activity and events.</p>
+                            <p>With {{ env('APP_NAME') }} online banking, you can create customizable updates that immediately notify you of account activity and events.</p>
                         </div>
                     </li>
                 </ul>

@@ -79,7 +79,7 @@
                             <span>Debit Cards</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>Enjoy secure access to your funds 24/7. Nestlecity International Debit Cards work at ATMs and merchants around the world.</p>
+                            <p>Enjoy secure access to your funds 24/7. {{ env('APP_NAME') }} Debit Cards work at ATMs and merchants around the world.</p>
                         </div>
                     </li>
                     <li class="accordion-item" data-accordion-item>
@@ -88,7 +88,7 @@
                             <span>Online and Mobile Banking</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            <p>At home or on-the-go, manage your accounts with the Nestlecity International online banking platform and mobile app.</p>
+                            <p>At home or on-the-go, manage your accounts with the {{ env('APP_NAME') }} online banking platform and mobile app.</p>
                         </div>
                     </li>
                 </ul>
@@ -145,7 +145,7 @@
                         <div class="row">
 
                             <div class="small-12 medium-10 large-8 columns">
-                                <p class="slider-text">If I had to describe Nestlecity International in three words, I’d use confidence, security, and consideration. They are always there for me.</p>
+                                <p class="slider-text">If I had to describe {{ env('APP_NAME') }} in three words, I’d use confidence, security, and consideration. They are always there for me.</p>
                                 <p class="testimonial-slider-info"><strong>Chris Elliott</strong>                      </p>
                                 <a href="/" class="button">Learn More</a>
                             </div>

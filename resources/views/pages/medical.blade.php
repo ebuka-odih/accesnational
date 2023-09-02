@@ -60,7 +60,7 @@
                 <div class="featured-box" data-equalizer-watch>
 
                     <h3>Attract & Retain Talent</h3>
-                    <p>Find and retain the best talent for your practice with Nestlecity International Partner Capital Loans and Nestlecity International Workplace Benefits.</p>
+                    <p>Find and retain the best talent for your practice with {{ env('APP_NAME') }} Partner Capital Loans and {{ env('APP_NAME') }} Workplace Benefits.</p>
                     <a href="attract-and-retain" class="button text-link" >Learn More</a>
                 </div>
             </div>
